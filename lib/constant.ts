@@ -357,30 +357,57 @@ export const products = [
     }
 
 ];
-export const actionButtons = [
 
-    { iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/302f9fb81fc31d29023e1deb4e7d6bbd121e1725d8e19ef423a3c7bfd70a44ec?placeholderIfAbsent=true&apiKey=74fb9a29a4a842cbb13bbfd7cb1d4d5f", alt: "Action 1" },
-    { iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/68cb672f9d1ba10ec9ed92bcd129fb9bf82593728d69d212ae41f0465e38821c?placeholderIfAbsent=true&apiKey=74fb9a29a4a842cbb13bbfd7cb1d4d5f", alt: "Action 2" },
-    { iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/5275ec0ff01b3fa42c2254ff7701fd1cbe7542ea1b8716022578ca7a843b197d?placeholderIfAbsent=true&apiKey=74fb9a29a4a842cbb13bbfd7cb1d4d5f", alt: "Action 3" },
-];
 export const featureList1 = {
     title: "the quick fox jumps over",
     items: [
-        { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/6e2851ffaa99d3955a5275ee5f65780517c8b8a1c4ebb47fe13625d6130c2ae7?placeholderIfAbsent=true&apiKey=74fb9a29a4a842cbb13bbfd7cb1d4d5f", text: "the quick fox jumps over the lazy dog" },
-        { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/18bd09f059fd185a494c616d6fb3e7b0dc3a787b37d8eb5ac73caa1831d3a469?placeholderIfAbsent=true&apiKey=74fb9a29a4a842cbb13bbfd7cb1d4d5f", text: "the quick fox jumps over the lazy dog" },
-        { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/640f2d98f514b9f5e91f7a5170b6fd90b06e8704f985046b40c2becc7ef3a8c1?placeholderIfAbsent=true&apiKey=74fb9a29a4a842cbb13bbfd7cb1d4d5f", text: "the quick fox jumps over the lazy dog" },
-        { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/5ae807793bd20b576fb8f6f0ae8079fa775fded9a70ef4065a5329a1a63954c8?placeholderIfAbsent=true&apiKey=74fb9a29a4a842cbb13bbfd7cb1d4d5f", text: "the quick fox jumps over the lazy dog" }
+        { text: "the quick fox jumps over the lazy dog" },
+        { text: "the quick fox jumps over the lazy dog" },
+        { text: "the quick fox jumps over the lazy dog" },
+        { text: "the quick fox jumps over the lazy dog" }
     ]
 };
 
 export const featureList2 = {
     title: "the quick fox jumps over",
     items: [
-        { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/e1d041d1d5491ba24fe05aaf8a70e2ad92a72a418531ca00dd88fab6fd8b8e80?placeholderIfAbsent=true&apiKey=74fb9a29a4a842cbb13bbfd7cb1d4d5f", text: "the quick fox jumps over the lazy dog" },
-        { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/97bb0ab94b26168e813f117398d252b47f5b19682990c260423397ed701758d2?placeholderIfAbsent=true&apiKey=74fb9a29a4a842cbb13bbfd7cb1d4d5f", text: "the quick fox jumps over the lazy dog" },
-        { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/1c91a7b75f1a23c7ca8cd20ee9b52015632f5a68c6ee565e3a97037578bc5688?placeholderIfAbsent=true&apiKey=74fb9a29a4a842cbb13bbfd7cb1d4d5f", text: "the quick fox jumps over the lazy dog" }
+        { text: "the quick fox jumps over the lazy dog" },
+        { text: "the quick fox jumps over the lazy dog" },
+        { text: "the quick fox jumps over the lazy dog" }
     ]
 };
+
+export const statisticsData = [
+    { value: "15K", label: "Happy Customers", width: "w-[238px]" },
+    { value: "150K", label: "Monthly Visitors", width: "w-[241px]" },
+    { value: "15", label: "Countries Worldwide", width: "w-60" },
+    { value: "100+", label: "Top Partners", width: "w-60" }
+  ];
+export const teamData = {
+    title: "Meet Our Team",
+    description: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics",
+    members: [
+      {
+        imageSrc: "/team-1.png",
+        username: "Username",
+        profession: "Profession",
+        
+      },
+      {
+        imageSrc: "/team-2.jpg",
+        username: "Username",
+        profession: "Profession",
+        
+      },
+      {
+        imageSrc: "team-3.jpg",
+        username: "Username",
+        profession: "Profession",
+        
+      }
+    ]
+  };
+
 export const gridBanners = [
     {
 
