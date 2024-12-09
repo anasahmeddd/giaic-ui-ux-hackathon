@@ -46,8 +46,7 @@ export default function Home() {
         <p className="text-md text-gray-400">Problems trying to resolve the conflict between </p>
         <div className="bg-red-500 h-1 w-8 my-8" />
 
-        <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-
+        <div className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {gridBanners.slice(0,4).map((product, index) => (
             <GridBanner key={index} {...product} />
           ))}
